@@ -18374,7 +18374,7 @@ __metadata:
     json-markup: "npm:^1.1.0"
     json-source-map: "npm:0.6.1"
     jsurl: "npm:^0.1.5"
-    kbar: "npm:0.1.0-beta.45"
+    kbar: "npm:0.1.0-beta.47"
     lerna: "npm:8.2.3"
     leven: "npm:^4.0.0"
     lodash: "npm:4.17.21"
@@ -21529,9 +21529,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"kbar@npm:0.1.0-beta.45":
-  version: 0.1.0-beta.45
-  resolution: "kbar@npm:0.1.0-beta.45"
+"kbar@npm:0.1.0-beta.47":
+  version: 0.1.0-beta.47
+  resolution: "kbar@npm:0.1.0-beta.47"
   dependencies:
     "@radix-ui/react-portal": "npm:^1.0.1"
     fast-equals: "npm:^2.0.3"
@@ -21539,9 +21539,9 @@ __metadata:
     react-virtual: "npm:^2.8.2"
     tiny-invariant: "npm:^1.2.0"
   peerDependencies:
-    react: ^16.0.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
-  checksum: 10/16d161b8563400cc5bff15cf1ba881eb7a00e7bb8b5bd8b67c878fdb60a3db7380ee36f2ac29f15361ece0b214c7d5322d02c954381036d3f72a5227d8d3eb47
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 10/a362f61860b41a9ac63686f9aa2adae7bbc69938ac8509515cc53a00bf81b2a923fc5615bccbd14baa6c1721cf97e4fe404c6561058c6d826918e491ae03ae65
   languageName: node
   linkType: hard
 
