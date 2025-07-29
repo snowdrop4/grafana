@@ -241,7 +241,7 @@ function VirtualListRow({ index, style, data }: VirtualListRowProps) {
       className={cx(styles.row, styles.bodyRow)}
       aria-labelledby={makeRowID(treeID, dashboardItem)}
       data-testid={selectors.pages.BrowseDashboards.table.row(
-        'title' in dashboardItem ? dashboardItem.title : dashboardItem.uid
+        dashboardItem.title ? dashboardItem.title : dashboardItem.uid
       )}
     >
       {row.cells.map((cell) => {

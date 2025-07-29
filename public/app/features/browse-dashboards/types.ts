@@ -31,6 +31,8 @@ export interface UIDashboardViewItem {
   kind: 'ui';
   uiKind: 'empty-folder' | 'pagination-placeholder' | 'divider';
   uid: string;
+  // Optional title to make mock data easier to work with
+  title?: string;
 }
 
 export type DashboardViewItemWithUIItems = DashboardViewItem | UIDashboardViewItem;
